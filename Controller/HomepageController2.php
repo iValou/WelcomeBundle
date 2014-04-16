@@ -53,7 +53,7 @@ class HomepageController extends Controller
 		$article->setTitle('Mon dernier weekend');
 		$article->setLink('Bibi');
 /* 		$article->setPubDate($this->$data['entries'][0]['dateModified']); */		
-		$article->setDescription('Bibi');
+		$article->setLink('Bibi');
 
 		
 		// On récupère l'EntityManager
